@@ -1,0 +1,14 @@
+{
+  "canisters": {
+    "logger": {
+      "main": "CeLogger.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "vessel sources"
+    }
+  }
+}
