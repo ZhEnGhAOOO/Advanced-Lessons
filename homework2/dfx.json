@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "dfx": "0.9.3",
+  "canisters": {
+    "homework2": {
+      "type": "motoko",
+      "main": "src/homework2/main.mo"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
